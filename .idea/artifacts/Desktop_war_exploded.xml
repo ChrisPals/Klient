@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Desktop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Desktop_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Eksamen DIS/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Eksamen DIS" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Jersey-2.2" />
+          <element id="library" level="project" name="httpclient-4.2.3" />
+          <element id="library" level="project" name="httpclient-4.5.2" />
+          <element id="library" level="project" name="gson-2.7" />
+          <element id="library" level="project" name="httpcore" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
